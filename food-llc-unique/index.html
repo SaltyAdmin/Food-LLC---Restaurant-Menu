@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food, LLC | Our Menu</title>
+
+  <!-- Bootstrap 3 is required for this assignment's xs/sm/md classes. -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-default" aria-label="Main navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#top">Food, LLC</a>
+
+        <button type="button"
+                class="navbar-toggle collapsed visible-xs"
+                data-toggle="collapse"
+                data-target="#food-menu"
+                aria-expanded="false"
+                aria-controls="food-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="food-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#menu-section">Chicken</a></li>
+          <li><a href="#menu-section">Beef</a></li>
+          <li><a href="#menu-section">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top" class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center page-title">Our Menu</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <section class="col-xs-12">
+        <div class="menu-card" id="menu-section">
+          <div class="menu-card-top">
+            <span class="menu-kicker">FRESH • SIMPLE • SATISFYING</span>
+            <h2 class="text-center">A Little Something for Everyone</h2>
+            <p class="menu-intro text-center">
+              Good food does not need to be complicated. Pick a favorite,
+              find a new flavor, and enjoy every bite.
+            </p>
+          </div>
+
+          <div class="menu-content">
+            <h3>Today’s Kitchen Notes</h3>
+            <p>
+              At Food, LLC, we like meals that feel familiar but still have
+              something special about them. Our kitchen takes everyday
+              ingredients and turns them into food worth sitting down for.
+              From a quick lunch between classes to dinner with friends,
+              there is always room at the table.
+            </p>
+            <p>
+              Chicken is a classic choice because it works with so many
+              flavors. It can be seasoned with garlic and herbs, grilled until
+              lightly smoky, or served with a warm and comforting sauce.
+              Pair it with rice or vegetables for a simple, filling meal.
+            </p>
+            <p>
+              If you prefer something richer, beef brings a deeper flavor to
+              a meal. Slow cooking can make it tender, while a hot pan gives
+              it a crisp edge. Fresh seasoning and a few colorful sides help
+              keep every plate balanced.
+            </p>
+            <p>
+              For something lighter, sushi offers a different mix of textures
+              and tastes. Rice, vegetables, and carefully prepared fillings
+              make each piece small but full of character. It is a good
+              reminder that food can be simple and creative at the same time.
+            </p>
+            <p>
+              We also believe that the best meals are the ones shared with
+              other people. Take your time, try something you have not had
+              before, and make the meal your own. This menu section is kept
+              extra tall for the responsive-page scrolling requirement of
+              the assignment.
+            </p>
+            <p>
+              Thanks for stopping by Food, LLC. We hope you find something
+              that sounds good and come back hungry for more.
+            </p>
+
+            <div class="menu-grid" aria-label="Featured menu items">
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Garlic Herb Chicken</h4>
+                  <span>PHP ₱280</span>
+                </div>
+                <p>Grilled chicken, roasted vegetables, and a lemon-herb finish.</p>
+              </article>
+
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Smoky BBQ Beef</h4>
+                  <span>PHP ₱320</span>
+                </div>
+                <p>Slow-cooked beef with BBQ glaze, crispy onions, and rice.</p>
+              </article>
+
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Garden Sushi Roll</h4>
+                  <span>PHP ₱260</span>
+                </div>
+                <p>Fresh cucumber, avocado, mango, and rice wrapped in seaweed.</p>
+              </article>
+
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Spicy Tofu Bowl</h4>
+                  <span>PHP ₱240</span>
+                </div>
+                <p>Tofu, grains, greens, and a ginger-soy drizzle for a light bite.</p>
+              </article>
+
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Loaded Fries</h4>
+                  <span>PHP ₱180</span>
+                </div>
+                <p>Crisp fries topped with cheddar, scallions, and house seasoning.</p>
+              </article>
+
+              <article class="menu-item">
+                <div class="item-header">
+                  <h4>Berry Cheesecake</h4>
+                  <span>PHP ₱160</span>
+                </div>
+                <p>Soft cheesecake layered with berry compote and a crunchy crust.</p>
+              </article>
+            </div>
+
+            <div class="menu-note">
+              <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+              <span>Made for good days and even better meals.</span>
+            </div>
+            <a class="back-to-top" href="#top">Back to top ↑</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer text-center">
+    <p>Food, LLC <span aria-hidden="true">·</span> A little flavor goes a long way.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
